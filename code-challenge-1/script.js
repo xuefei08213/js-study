@@ -8,7 +8,7 @@ let bmiMark = massMark / heightMark ** 2;
 let bmiJohn = massJohn / heightJohn ** 2;
 
 let markHigherBMI = bmiMark > bmiJohn;
-console.log(markHigherBMI)
+console.log(bmiMark,bmiJohn,markHigherBMI)
 
 
 massMark = 95;
@@ -21,4 +21,4 @@ bmiMark = massMark / heightMark ** 2;
 bmiJohn = massJohn / heightJohn ** 2;
 
 markHigherBMI = bmiMark > bmiJohn;
-console.log(markHigherBMI)
+console.log(bmiMark,bmiJohn,markHigherBMI)
