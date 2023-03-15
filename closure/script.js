@@ -98,16 +98,16 @@
 
 // 在迭代内使用IIFE会为每个迭代都生成一个新的作用域，使得延迟函数的回调可以将新的作用域封闭在每个迭代内部
 // 每个迭代中都会含有一个具有正确之的变量供我们访问
-for (var i = 1; i <= 5; i++) {
-  (function (j) {
-    setTimeout(function timer() {
-      console.log(j);
-    }, j * 1000);
-  })(i);
-}
+// for (var i = 1; i <= 5; i++) {
+//   (function (j) {
+//     setTimeout(function timer() {
+//       console.log(j);
+//     }, j * 1000);
+//   })(i);
+// }
 
-for (let i = 0; i <= 5; i++) {
-  setTimeout(() => {
-    console.log(i);
-  }, i * 1000);
-}
+// for (let i = 0; i <= 5; i++) {
+//   setTimeout(() => {
+//     console.log(i);
+//   }, i * 1000);
+// }
